@@ -1,0 +1,44 @@
+W.O.M.M.P. = It "works on my machine" problem
+
+The "works on my machine" problem 
+refers to a situation where a software 
+application runs without issues on a 
+developer's local machine but encounters 
+problems when deployed to other environments, 
+such as testing or production servers. 
+It is a common frustration in software 
+development and can cause delays, confusion, 
+and difficulties in resolving issues.
+
+The main reasons 
+behind the "works on my machine" problem are 
+differences in software dependencies, 
+configurations, and underlying environments 
+between the developer's machine and the 
+deployment environment. These differences 
+can include variations in operating systems, 
+library versions, system configurations, 
+network setups, and more.
+
+When a developer develops and tests an 
+application on their own machine, they may
+have specific configurations, libraries, or 
+dependencies installed that are not replicated 
+in other environments. As a result, the 
+application might behave differently or 
+fail to run properly when deployed to other 
+systems.
+
+The "works on my machine" problem can be mitigated 
+by using tools like Docker. Docker allows developers 
+to package their applications and dependencies into 
+a container, ensuring that the application runs 
+consistently across different environments. With 
+Docker, the application and its required components 
+are bundled together, reducing the chances of 
+dependency or configuration mismatches.
+
+By using Docker, developers can provide a standardized 
+and reproducible environment for their applications, 
+minimizing the "works on my machine" problem and promoting 
+consistency in the deployment process.
